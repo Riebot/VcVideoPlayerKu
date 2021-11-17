@@ -4,6 +4,7 @@ from pyrogram import Client, filters
 from helper.decorators import authorized_users_only
 from helper.filters import command, other_filters
 from helper.queues import QUEUE, clear_queue
+from config import BOT_USERNAME
 from helper.utils import skip_current_song, skip_item
 from pyrogram.types import (
     CallbackQuery,
